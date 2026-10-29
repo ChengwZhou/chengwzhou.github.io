@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Chengwei Zhou — Ph.D. student in Computer Engineering at Case Western Reserve University. Research in efficient AI, diffusion language models, and edge intelligence.">
+  <title>Chengwei Zhou | Ph.D. Student</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #202833;
+      --muted: #647080;
+      --link: #215ca4;
+      --line: #e3e7eb;
+      --background: #ffffff;
+      --max-width: 840px;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--link); text-decoration: none; text-underline-offset: 3px; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; border-radius: 2px; }
+    .container { width: min(var(--max-width), calc(100% - 56px)); margin-inline: auto; }
+    .site-header { border-bottom: 1px solid var(--line); }
+    .header-inner { min-height: 66px; display: flex; justify-content: space-between; align-items: center; gap: 18px; }
+    .wordmark { font-size: 15px; font-weight: 750; color: var(--ink); letter-spacing: -.3px; white-space: nowrap; }
+    .nav { display: flex; gap: 24px; align-items: center; flex-wrap: wrap; }
+    .nav a { font-size: 13px; font-weight: 500; color: var(--muted); }
+    .nav a:hover { color: var(--link); }
+    .intro { padding: 49px 0 36px; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { font-size: clamp(32px, 5vw, 42px); letter-spacing: -1.4px; font-weight: 750; line-height: 1.2; margin-bottom: 10px; }
+    .subtitle { font-size: 16px; color: #414f60; margin-bottom: 2px; }
+    .institution { font-size: 14px; color: var(--muted); margin-bottom: 17px; }
+    .social { display: flex; align-items: center; flex-wrap: wrap; gap: 17px; font-size: 14px; font-weight: 550; }
+    .social a { display: inline-flex; gap: 6px; align-items: center; }
+    .social svg { width: 15px; height: 15px; flex: none; }
+    .section { padding: 25px 0 29px; border-top: 1px solid var(--line); scroll-margin-top: 22px; }
+    h2 { margin-bottom: 13px; font-size: 18px; font-weight: 720; letter-spacing: -.35px; }
+    .about { max-width: 770px; color: #394657; margin-bottom: 0; }
+    .areas { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; row-gap: 14px; }
+    .area h3 { font-size: 14px; font-weight: 700; margin-bottom: 2px; }
+    .area p { margin-bottom: 0; font-size: 14px; line-height: 1.6; color: var(--muted); }
+    .pub { display: grid; grid-template-columns: 52px 1fr; gap: 12px; align-items: baseline; }
+    .pub-year { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+    .pub-title { font-weight: 680; font-size: 14px; }
+    .pub-venue { color: var(--muted); font-size: 13px; }
+    .contact-row { display: flex; flex-wrap: wrap; gap: 7px 24px; font-size: 14px; }
+    .contact-label { color: var(--muted); margin-right: 6px; }
+    footer { border-top: 1px solid var(--line); padding: 18px 0 28px; margin-top: 2px; color: #89919b; font-size: 12px; }
+    @media (max-width: 600px) {
+      .container { width: calc(100% - 36px); }
+      .header-inner { align-items: start; flex-direction: column; gap: 3px; padding: 15px 0 13px; }
+      .nav { gap: 16px; }
+      .intro { padding: 35px 0 30px; }
+      .section { padding: 22px 0 24px; }
+      .areas { grid-template-columns: 1fr; row-gap: 13px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#top" aria-label="Chengwei Zhou, back to top">Chengwei Zhou</a>
+      <nav class="nav" aria-label="Page navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="top">
+    <div class="intro">
+      <h1>Chengwei Zhou</h1>
+      <p class="subtitle">Ph.D. Student in Computer Engineering</p>
+      <p class="institution">Case Western Reserve University · Cleveland, Ohio</p>
+      <div class="social">
+        <a href="mailto:cxz760@case.edu" aria-label="Email Chengwei Zhou">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          Email
+        </a>
+        <a href="https://www.linkedin.com/in/chengwei-zhou-5a82bb267/" target="_blank" rel="noopener noreferrer" aria-label="Chengwei Zhou on LinkedIn (opens in a new tab)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 10v7m0-10v.01M12 17v-7h3a2 2 0 0 1 2 2v5"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p class="about">I am a Ph.D. student in the Department of Electrical, Computer, and Systems Engineering at <strong>Case Western Reserve University</strong>, advised by <strong>Prof. Gourav Datta</strong>. My research focuses on efficient and adaptive AI, spanning language models, vision architectures, and resource-constrained intelligent systems.</p>
+    </section>
+
+    <section class="section" id="research" aria-labelledby="research-heading">
+      <h2 id="research-heading">Research Interests</h2>
+      <div class="areas">
+        <div class="area">
+          <h3>Diffusion Language Models</h3>
+          <p>Reasoning, decoding strategies, and reinforcement learning for diffusion-based language models.</p>
+        </div>
+        <div class="area">
+          <h3>Efficient AI Architectures</h3>
+          <p>Model reparameterization and compute-efficient vision transformers.</p>
+        </div>
+        <div class="area">
+          <h3>Edge &amp; Near-Sensor Intelligence</h3>
+          <p>Hardware-aware perception and energy- and bandwidth-efficient machine learning.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="publications" aria-labelledby="publications-heading">
+      <h2 id="publications-heading">Selected Publications</h2>
+      <!-- Add links and additional papers here when their public bibliographic details are confirmed. -->
+      <div class="pub">
+        <span class="pub-year">2026</span>
+        <div>
+          <span class="pub-title">FrequencyFormer</span>
+          <span class="pub-venue"> · IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <div class="contact-row">
+        <div><span class="contact-label">Email</span><a href="mailto:cxz760@case.edu">cxz760@case.edu</a></div>
+        <div><span class="contact-label">LinkedIn</span><a href="https://www.linkedin.com/in/chengwei-zhou-5a82bb267/" target="_blank" rel="noopener noreferrer">chengwei-zhou</a></div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container">© 2026 Chengwei Zhou</div></footer>
+</body>
+</html>
